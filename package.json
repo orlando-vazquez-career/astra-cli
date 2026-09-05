@@ -1,0 +1,39 @@
+{
+  "name": "astra-cli",
+  "version": "0.1.0",
+  "description": "Herramientas del protocolo ASTRA (desarrollo Web3 agentico, multi-cadena, multi-vendor): doctor, registro de cadenas, validacion de direcciones, escaner de secretos, gate de mainnet, sync de skills y servidor MCP.",
+  "type": "module",
+  "bin": {
+    "astra": "bin/astra.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "check": "node bin/astra.mjs check"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "web3",
+    "stellar",
+    "soroban",
+    "syscoin",
+    "base",
+    "evm",
+    "mcp",
+    "ai-agents",
+    "protocol"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orlando-vazquez-career/astra-cli.git"
+  }
+}

@@ -86,7 +86,7 @@ El CLI no firma, no despliega y no guarda claves. Los despliegues los hace el hu
 ## Desarrollo
 
 ```bash
-node --test "test/**/*.test.mjs"   # 46 tests: vectores SEP-0023, EIP-55, BIP-173/350, base58check; init, check, mcp e2e
+node --test   # 46 tests: vectores SEP-0023, EIP-55, BIP-173/350, base58check; init, check, mcp e2e
 node bin/astra.mjs check           # el repo se escanea a si mismo
 ```
 

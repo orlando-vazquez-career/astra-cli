@@ -13,7 +13,7 @@ Reglas para cualquier agente de IA (Claude Code, Codex, Kimi Code, Cursor, Gemin
 3. **Sin red salvo pedido explicito.** Solo `chain probe`, `astra_chain_probe` y `protocol fetch` tocan la red. Nada de telemetria, nada de APIs de IA.
 4. **Toda URL o cadena nueva se verifica en vivo** antes de entrar a `data/chains.json` o `data/standards.json`, y se anota `verifiedAt`. Titulo y estado de un estandar se copian de la fuente oficial.
 5. **Multiplataforma.** `node:path` siempre; `findExecutable` respeta `PATHEXT`; `.cmd/.bat` corren con `shell: true`; escrituras con `writeAtomic`. Todo test tiene que pasar en Windows, macOS y Linux (CI).
-6. **Tests primero.** `node --test "test/**/*.test.mjs"` en verde antes de cada commit; `node bin/astra.mjs check` sobre este repo tambien.
+6. **Tests primero.** `node --test` en verde antes de cada commit; `node bin/astra.mjs check` sobre este repo tambien.
 7. **Mensajes al usuario en español neutro**, identificadores en ingles, marcadores ASCII `OK` / `WARN` / `FAIL`, `--json` en todos los comandos, codigos de salida 0/1/2.
 
 ## Mapa
